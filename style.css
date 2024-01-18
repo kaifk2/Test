@@ -1,0 +1,80 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+}
+
+/* Title section styles */
+.title {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.title h3 {
+    margin-bottom: 10px;
+}
+
+.title p {
+    margin-bottom: 20px;
+}
+
+.title button {
+    background-color: #ffffff;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Class section styles */
+.class {
+    padding: 20px;
+}
+
+/* Card styles */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .title {
+        padding: 10px;
+    }
+
+    .title button {
+        padding: 8px 16px;
+    }
+}
